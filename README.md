@@ -1,0 +1,1 @@
+# mirascope-type-error-example
