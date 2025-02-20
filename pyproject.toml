@@ -1,0 +1,13 @@
+[project]
+name = "mirascope-type-error-example"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Matias Brignone", email = "mnbrignone@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = ["mirascope[openai] (>=1.18.3,<2.0.0)", "mypy (>=1.15.0,<2.0.0)"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
